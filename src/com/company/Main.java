@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args) {
         First first = new First();
         Second second = new Second();
-        //Third third = new Third();
+        Third third = new Third();
+        third.delDots();
         int command = -1;
         Scanner in = new Scanner(System.in);
         outputMenu();
@@ -51,13 +52,11 @@ public class Main {
                     second.addZeros();
                     break;
                 case 11:
-                    //some
+                    System.out.print("Введите текст: ");
+                    third.setText(in.nextLine());
                     break;
                 case 12:
-                    //some
-                    break;
-                case 13:
-                    //some
+                    third.delDots();
                     break;
                 case 0:
                     System.out.println("Завершение программы...");
@@ -81,9 +80,8 @@ public class Main {
         System.out.println("8 - Удалить из текста все слова, которые начинаются с приставок пре и при.");
         System.out.println("9 - Целые числа, которые не кратны 7, заменить результатом этого деления.");
         System.out.println("10 - Добавить строку из семи нулей, перед каждым словом не числом.");
-        System.out.println("11 ");
-        System.out.println("12 ");
-        System.out.println("13 ");
+        System.out.println("11 - Ввести 3 цифры с точкой/запятой(Задание №3)");
+        System.out.println("12 - Найти в тексте большие числа и записать их в традиционной форме");
         System.out.println("0 - Выход");
     }
 }
