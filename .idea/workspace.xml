@@ -30,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -75,7 +75,8 @@
       <workItem from="1571154990753" duration="3347000" />
       <workItem from="1571224117572" duration="1756000" />
       <workItem from="1571262298558" duration="1003000" />
-      <workItem from="1571297757767" duration="4077000" />
+      <workItem from="1571297757767" duration="5616000" />
+      <workItem from="1571308792711" duration="292000" />
     </task>
     <servers />
   </component>
