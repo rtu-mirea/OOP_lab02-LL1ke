@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc710bbb-1463-42b7-9760-fa318d5eafb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2/com/company/Third.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/com/company/Third.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Third.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +76,7 @@
       <workItem from="1571262298558" duration="1003000" />
       <workItem from="1571297757767" duration="5616000" />
       <workItem from="1571308792711" duration="292000" />
+      <workItem from="1571314004150" duration="1662000" />
     </task>
     <servers />
   </component>

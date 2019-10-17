@@ -16,6 +16,10 @@ public class Third {
 
     // Найти в тексте большие числа и записать их в традиционной форме
     public void delDots(){
+        if (text == ""){
+            System.out.println("Error");
+            return;
+        }
         String tmp = "";
         Pattern pattern = Pattern.compile("\\d\\d\\d[.,]");
         Matcher match = pattern.matcher(text);
