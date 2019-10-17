@@ -20,27 +20,35 @@ public class Main {
                 case 1:
                     outputMenu();
                     break;
-                case 2:
+                case 2: {
+                    Scanner in2 = new Scanner(System.in);
                     System.out.print("Введите текст: ");
-                    first.setText(in.nextLine());
+                    first.setText(in2.nextLine());
+                }
                     break;
                 case 3:
                     first.vowelWords();
                     break;
-                case 4:
+                case 4: {
+                    Scanner in2 = new Scanner(System.in);
                     System.out.print("Введите слово: ");
-                    first.longerThan(in.nextLine());
+                    first.longerThan(in2.nextLine());
+                }
                     break;
                 case 5:
                     first.upperPrePri();
                     break;
-                case 6:
+                case 6: {
+                    Scanner in2 = new Scanner(System.in);
                     System.out.print("Введите диапазон: ");
-                    first.numberRange(in.nextInt(),in.nextInt());
+                    first.numberRange(in2.nextInt(), in.nextInt());
+                }
                     break;
-                case 7:
+                case 7: {
+                    Scanner in2 = new Scanner(System.in);
                     System.out.print("Введите текст: ");
-                    second.setText(in.nextLine());
+                    second.setText(in2.nextLine());
+                }
                     break;
                 case 8:
                     second.removePrePri();
@@ -51,9 +59,11 @@ public class Main {
                 case 10:
                     second.addZeros();
                     break;
-                case 11:
+                case 11: {
+                    Scanner in2 = new Scanner(System.in);
                     System.out.print("Введите текст: ");
-                    third.setText(in.nextLine());
+                    third.setText(in2.nextLine());
+                }
                     break;
                 case 12:
                     third.delDots();
